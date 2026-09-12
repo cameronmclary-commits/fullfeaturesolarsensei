@@ -1,0 +1,8 @@
+{
+  "buildCommand": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
+  "outputDirectory": ".next/standalone",
+  "installCommand": "bun install",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
